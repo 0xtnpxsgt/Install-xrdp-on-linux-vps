@@ -16,5 +16,13 @@ https://raw.githubusercontent.com/0xtnpxsgt/Install-xrdp-on-linux-vps/refs/heads
 ```
 The script will ask you Username and Password for the remote desktop session. Don’t use root here and set what you want, just keep them somewhere as you will need them later.
 
+# Install AdsPower
+- Run Command
+```bash
+sudo apt update
+sudo apt install wget
+wget https://version.adspower.net/software/linux-x64-global/AdsPower-Global-6.9.24-x64.deb
+sudo dpkg -i AdsPower-Global-6.9.24-x64.deb
+```
 
 If you liked this guide and want to learn methods to earn money with Nodes or Telegram Bots, feel free to join my discord server https://discord.gg/UPSfxycf
